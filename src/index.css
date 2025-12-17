@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+    --main: 16 24 40;
+    --text: 71 84 103;
+    --inputs: 247 247 247;
+    --badges: 242 244 247;
+    --gray: 108 113 123;
+    --grayLight: 218 221 225;
+    --button: 228 72 72;
+    --buttonHover: 216 67 67;
+    --rating: 255 197 49;
+
+}
+
+@theme {
+  --color-main: rgb(var(--main));
+  --color-text: rgb(var(--text));
+  --color-inputs: rgb(var(--inputs));
+  --color-badges: rgb(var(--badges));
+  --color-gray: rgb(var(--gray));
+  --color-grayLight: rgb(var(--grayLight));
+  --color-button: rgb(var(--button));
+  --color-buttonHover: rgb(var(--buttonHover));
+  --color-rating: rgb(var(--rating));
+}
+
+.heading-1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;    /* semibold */
+  font-size: 48px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.heading-2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;    /* semibold */
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.heading-3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;    /* semibold */
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;    /* regular */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.body-2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;    /* medium */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;    /* medium */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+.body-underline {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;    /* regular */
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
