@@ -88,3 +88,11 @@ p {
   line-height: 24px;
   letter-spacing: 0;
 }
+
+/* NavLink için reset gelen a{background-color:transparent} kuralını bastır */
+a.button {
+  background-color: var(--color-button);
+}
+a.button:hover {
+  background-color: var(--color-buttonHover);
+}

@@ -1,11 +1,12 @@
 import clsx from "clsx";
+import { NavLink } from "react-router";
 
 function Button({
   children,
   variant = "primary",
   size = "md",
   type = "button",
-  href,
+  to,
   onClick,
   className,
   ...rest
@@ -23,11 +24,11 @@ function Button({
 
   const classes = clsx(base, variants[variant], sizes[size], className);
 
-  if (href) {
+  if (to) {
     return (
-      <a href={href} className={classes} onClick={onClick} {...rest}>
+      <NavLink to={to} className={classes} onClick={onClick} {...rest}>
         {children}
-      </a>
+      </NavLink>
     );
   }
 
